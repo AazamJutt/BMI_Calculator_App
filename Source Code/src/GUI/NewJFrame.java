@@ -292,7 +292,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 153, 153));
         jPanel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("G:\\Study Material\\5th Semester\\Operating System\\Assignment\\ProccessSchduler\\JavaApplication14\\src\\bmi-calcnew (1).png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bmi-calcnew (1).png"))); // NOI18N
         jPanel2.add(jLabel6);
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_START);
